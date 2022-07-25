@@ -1,0 +1,231 @@
+baseurl: 'https://cv.maxmanders.co.uk/'
+languageCode: en-gb
+title: Max Manders
+disableRSS: true
+disableSitemap: false
+disable404: false
+params:
+  description: Max Manders | Curriculum Vitae
+  author: Max Manders
+  profile:
+    name: Max Manders
+    tagline: Experienced Developer & DevOps Engineer
+    avatar: profile.png
+  contact:
+    enable: true
+    list:
+      - class: max@maxmanders.co.uk
+        icon: fa-envelope
+        url: 'mailto: max@maxmanders.co.uk'
+        title: max@maxmanders.co.uk
+      - class: phone
+        icon: fa-phone
+        url: 'tel:+447866797983'
+        title: '+447866797983'
+      - class: website
+        icon: fa-globe
+        url: //maxmanders.co.uk
+        title: maxmanders.co.uk
+      - class: linkedin
+        icon: fa-linkedin
+        url: //linkedin.com/in/maxmanders
+        title: linkedin.com/in/maxmanders
+      - class: github
+        icon: fa-github
+        url: //github.com/maxmanders
+        title: github.com/maxmanders
+      - class: twitter
+        icon: fa-twitter
+        url: //twitter.com/maxmanders
+        title: '@maxmanders'
+  education:
+    enable: true
+    title: Education
+    list:
+      - degree: BSc (Hons) in Computer Science
+        college: Heriot-Watt University
+        dates: 2001 - 2005
+  download:
+    enable: true
+    title: Download
+  summary:
+    enable: true
+    icon: fa-user
+    title: Career Profile
+    summary: >-
+      I am a driven and passionate platform engineer with experience building
+      and supporting highly available and scalable infrastructure. I subscribe
+      to the ideals of DevOps, both technological and cultural. I’m driven to
+      learn new skills and to be constantly challenged in all that I do. I’m a
+      proponent of open source and open data. I’ve been fortunate enough to be
+      afforded the opportunity to provide a technical review of two DevOps
+      related books from Packt Publishing. I’m looking for the next exciting
+      challenge, to allow me to contribute to a successful operations or
+      platform team, and continue to embrace new skills and ideas.
+  experiences:
+    enable: true
+    icon: fa-briefcase
+    title: Experiences
+  jobs:
+    list:
+      - position: 'Tech Lead, SRE'
+        dates: 01/2022 - Present
+        company: Trustpilot
+        details: >-
+          * As with Senior SRE, with additional responsibilities to;
+
+          * Liaise with Tech Leads and and business leaders to ensure alignment
+          across teams;
+
+          * Define our team's roadmap and technical direction
+      - position: Senior SRE
+        dates: 05/2021 - 01/2022
+        company: Trustpilot
+        details: >-
+          * Contributing to internal paved road CloudFormation templates to
+          enable self-service for software teams;
+
+          * Providing automated solutions to eliminate toil, mostly using Python
+          and Go;
+
+          * Supporting a Prometheus, Grafana and CloudWatch based monitoring and
+          alerting platform;
+
+          * Supporting a CI/CD platform based on Jenkins and Octopus Deploy;
+
+          * On-Call
+      - position: Senior DevOps Engineer
+        dates: 05/2019 - 05/2021
+        company: Current Health
+        details: >-
+          * Similar to previous roles, with a focus on specific needs of an
+          early stage startup;
+
+          * Building out secure and scalable infrastructure with Terraform
+          (using a lot of AWS services, and a mix of ECS containers and
+          HashiCorp Nomad);
+
+          * Improving resiliency and performance;
+
+          Working in a HIPAA environment
+      - position: Principal Operations Engineer
+        dates: 02/2017 - 05/2019
+        company: FanDuel
+        details: |-
+          * Strategy;
+          * Architecture;
+          * Project lead on longer running operations projects
+          * in addition to Senior Operations Engineer
+      - position: Senior Operations Engineer
+        dates: 09/2016 - 02/2017
+        company: FanDuel
+        details: >-
+          * Line management and mentoring for four other operations engineers,
+          in addition to Operations Engineer
+      - position: Operations Engineer
+        dates: 05/2015 - 09/2016
+        company: FanDuel
+        details: >-
+          * Building, monitoring, and managing highly available AWS Linux
+          infrastructure at scale using CloudFormation and Puppet, Datadog and
+          CloudWatch;
+
+          * Being a designated engineer for a number of service teams, ensuring
+          that their operational requirements are accommodated;
+
+          * On-Call
+      - position: Team Leader
+        dates: 05/2014 - 05/2015
+        company: Cloudreach
+        details: |-
+          * Managed the Operations Team;
+          * Line Management;
+          * Requirements gathering and monitoring implementation;
+          * Mentoring a new operations team on site in Vancouver;
+          * On-Call
+      - position: Systems Developer
+        dates: 09/2012 - 05/2014
+        company: Cloudreach
+        details: >-
+          * Development and enhancement of monitoring tools deployed as Splunk
+          apps via Chef;
+
+          * Incident resolution, investigation and root cause analysis;
+
+          * On-Call;
+
+          * Mentoring junior engineers;
+
+          * Built and migrated various AWS infrastructures involving Puppet,
+          Chef and CloudFormation.
+      - position: Systems Developer
+        dates: 08/2010 - 09/2012
+        company: Maglabs
+        details: ''
+      - position: Systems Developer
+        dates: 07/2009 - 08/2010
+        company: DietChef
+        details: ''
+      - position: Systems Developer
+        dates: 11/2007 - 07/2009
+        company: Valley Technology
+        details: ''
+      - position: Web Developer
+        dates: 02/2006 - 11/2007
+        company: Crown Office & Procurator Fiscal Office
+        details: ''
+  accomplishments:
+    enable: true
+    icon: fa-archive
+    title: Achievements
+    list:
+      - title: AWS Certified Solutions Architect (Associate)
+        tagline: lapsed
+      - title: AWS Certified SysOps Engineer (Associate)
+        tagline: lapsed
+      - title: Technical Reviewer
+        tagline: 'Continuous Delivery and DevOps: A Quickstart Guide, Packt Publishing'
+      - title: Technical Reviewer
+        tagline: 'Chef Infrastructure Automation Cookbook, Packt Publishing'
+  skills:
+    enable: true
+    icon: fa-rocket
+    title: Skills & Proficiency
+    list:
+      - skill: Amazon Web Services
+        level: 98%
+      - skill: JavaScript / Node.js
+        level: 30%
+      - skill: Chef; Puppet
+        level: 80%
+      - skill: HashiCorp Nomad; Vault; Terraform; Consul
+        level: 80%
+      - skill: 'Grafana, Prometheus, Datadog, Graylog'
+        level: 80%
+      - skill: Debian and RHEL based Linux
+        level: 85%
+      - skill: CI/CD; Jenkins; Travis-CI; GitHub Actions
+        level: 83%
+      - skill: ElasticSearch; Nginx; RabbitMQ
+        level: 70%
+      - skill: MySQL; PostgreSQL; MongoDB
+        level: 70%
+      - skill: Docker
+        level: 80%
+      - skill: Bash / Shell Scripting
+        level: 85%
+      - skill: Python
+        level: 85%
+      - skill: Go
+        level: 70%
+
+deployment:
+  targets:
+    URL: "s3://cv.maxmanders.co.uk?region=eu-west-1"
+    cloudFrontDistributionID: "TBC"
+  matchers:
+    - pattern: "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+      cacheControl: "max-age=31536000, no-transform, public"
+      gzip: true
+    - pattern: "^.+\\.(html|xml|json)$"
+      gzip: true
