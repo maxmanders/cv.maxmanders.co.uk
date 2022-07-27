@@ -222,7 +222,7 @@ params:
 deployment:
   targets:
     URL: "s3://cv.maxmanders.co.uk?region=eu-west-1"
-    cloudFrontDistributionID: "TBC"
+    cloudFrontDistributionID: "EJ8CYD42ZXFD4"
   matchers:
     - pattern: "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
       cacheControl: "max-age=31536000, no-transform, public"
