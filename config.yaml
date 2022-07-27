@@ -7,6 +7,7 @@ disable404: false
 params:
   description: Max Manders | Curriculum Vitae
   author: Max Manders
+  title: Max Manders' CV
   profile:
     name: Max Manders
     tagline: Experienced Developer & DevOps Engineer
